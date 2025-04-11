@@ -19,18 +19,21 @@ class WebHomeLayout extends StatelessWidget {
           child: WebNavBar(),
         ),
       ),
-      body: Column(
-        children: [
-          Image.network('https://via.placeholder.com/1200x300.png?text=Banner'),
-          SizedBox(height: 20),
-          ElevatedButton(
-            onPressed: () {
-              Get.toNamed('/products');
-            },
-            child: Text('Go to Home Details (Products)'),
-          ),
-        ],
-      ),
+      body: SingleChildScrollView(
+    child: Column(
+    children: [
+    Image.asset('assets/images/header_img.png'),
+    SizedBox(height: 20),
+    ElevatedButton(
+    onPressed: () {
+    Get.toNamed('/products');
+    },
+    child: Text('Go to Home Details (Products)'),
+    ),
+    ],
+    ),
+    ),
+
     );
   }
 }

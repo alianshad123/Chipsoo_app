@@ -23,7 +23,7 @@ class MobileHomeLayout extends StatelessWidget {
       endDrawer: MobileDrawer(),
       body: Column(
         children: [
-          Image.network('https://www.dummyimage.com/halfbanner'),
+          Image.asset('assets/images/header_img.png'),
           SizedBox(height: 20),
           ElevatedButton(
             onPressed: () {
