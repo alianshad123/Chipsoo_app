@@ -1,0 +1,16 @@
+[
+  {
+    "image": "assets/images/chips_one.png",
+    "flavor": "Spicy Masala",
+    "description": "Hot and crispy masala chips!",
+    "price": "₹50",
+    "offerPrice": "₹40"
+  },
+  {
+    "image": "assets/images/chips_one.png",
+    "flavor": "Tangy Tomato",
+    "description": "Juicy tomato flavored delight!",
+    "price": "₹45",
+    "offerPrice": "₹35"
+  }
+]

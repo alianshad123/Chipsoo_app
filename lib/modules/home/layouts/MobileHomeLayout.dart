@@ -1,9 +1,10 @@
 import 'package:chipsoo_app/widgets/mobile_drawer.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
 class MobileHomeLayout extends StatelessWidget {
+  const MobileHomeLayout({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
